@@ -1,3 +1,10 @@
+import sys
+import os
+sys.path.insert(0, os.path.abspath(os.path.dirname(os.path.dirname(__file__))))
+
+import pytest
+from app import app
+# ... leave the rest of your test code exactly as it is ...
 import pytest
 from app import app
 
